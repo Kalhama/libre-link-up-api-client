@@ -21,7 +21,6 @@
     "debug": "babel-watch --inspect 0.0.0.0:9229 --extensions \".ts\" src/index.ts",
     "lint": "eslint --fix --ext .ts ./src",
     "format": "prettier --ignore-path .gitignore --write \"src/**/*.+(ts|json)\"",
-    "prepare": "husky install",
     "release": "release-it"
   },
   "devDependencies": {
@@ -44,7 +43,6 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.4",
-    "husky": "^7.0.4",
     "prettier": "^2.5.1",
     "release-it": "^15.1.1",
     "typescript": "^3.9.10"
